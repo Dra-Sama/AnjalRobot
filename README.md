@@ -24,7 +24,7 @@
 ## ✨ Deploy to Heroku ✨
 
 ᴄʟɪᴄᴋ ᴛᴏ ᴅᴇᴘʟᴏʏ sᴄʀᴇᴇɴ ᴏғ ʜᴇʀᴏᴋᴜ ғɪʟʟ ᴀ ᴠᴀʀs ɴᴏᴡ ʙᴏᴛ ʀᴜɴs ʜᴇʀᴏᴋᴜ!
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/FreakMask/AnjalRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku"width="220"height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/HYBRIDFREAK/AnjalRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku"width="220"height="38.45"/></a></p>
 
 
 ## ✨ Deploy to Railway ✨
@@ -41,17 +41,10 @@
 ## `SQLALCHEMY_DATABASE_URI` | MOST USE OLD USE
 
 
-## Special Credits
-- ZeusXRobot - base
-
 
 ### Support
 <p>
-<a href="https://t.me/PegasusUpdates"> <img src="https://img.shields.io/badge/Telegram-Updates-blue?&logo=telegram" alt="Updates" /> </a><br>
-<a href="https://t.me/NobisukiSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
+<a href="https://t.me/"> <img src="https://img.shields.io/badge/Telegram-Updates-blue?&logo=telegram" alt="Updates" /> </a><br>
+<a href="https://t.me/"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
 </p>
 
-## Credit
-• [Crazy Boy](https://t.me/call_me_crazyboy)``Owner``
- 
-• [DeepakJack](https://t.me/DeepakJack007)``Dev``
