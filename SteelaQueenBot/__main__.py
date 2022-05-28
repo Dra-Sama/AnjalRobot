@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝐇𝐞𝐲 𝐈'𝐦 [✿્᭄͜͡Ꭺ𝗇ʝaℓ🍒](https://telegra.ph/file/434967e94c3dda08b34ac.jpg) 
+𝐇𝐞𝐲 𝐈'𝐦 [Shanks](https://te.legra.ph/file/64104b32c98a8a050633b.jpg) 
 𝐈 𝐇𝐚𝐯𝐞 𝐋𝐨𝐭 𝐎𝐟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐚𝐧𝐝 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬!
 
 ✰ 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 ✰ """
@@ -91,18 +91,18 @@ STICKERS = (
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/AnjalRobot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/ShanksXRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/PegasusUpdates"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/shankssUpdates"),
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/NobisukiSupport"
         ),
     ],
     [
-        InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/Pegasus_Network"),
+        InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/TeamWizardz"),
         InlineKeyboardButton(
-            text="source", url="https://Github.com/godofanjal/AnjalRobot"
+            text="source", url="https://Github.com"
         ),
     ],
     [
@@ -114,7 +114,7 @@ buttons = [
 HELP_STRINGS = """
 𝐇𝐢 𝐭𝐡𝐞𝐫𝐞, 𝐈'𝐦 *{}*!
 𝐂𝐥𝐢𝐤𝐞 𝐁𝐞𝐥𝐨𝐰 𝐓𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧 𝐀𝐧𝐝 𝐆𝐞𝐭 𝐃𝐨𝐜𝐮𝐦𝐚𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐎𝐟 𝐌𝐨𝐝𝐮𝐥𝐞𝐬..
-𝐀𝐥𝐥 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐟𝐨𝐥𝐥𝐨𝐰𝐢𝐧𝐠: / or ! 𝐮𝐬𝐞[.](https://telegra.ph/file/c9ede520fffd9c7d7d695.jpg)
+𝐀𝐥𝐥 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐟𝐨𝐥𝐥𝐨𝐰𝐢𝐧𝐠: / or ! 𝐮𝐬𝐞[.](https://te.legra.ph/file/5cd8696145e62c079b4ea.mp4)
 𝐋𝐢𝐬𝐭 𝐨𝐟 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐌𝐨𝐝𝐮𝐥𝐞𝐬:
 """.format(
     dispatcher.bot.first_name,
@@ -123,7 +123,7 @@ HELP_STRINGS = """
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Don't need to donate I'm free for every one add your group's this my donate🙂"""
-HELP_IMG= "https://telegra.ph/file/50fbdf1bff30369d62a59.jpg"
+HELP_IMG= "https://te.legra.ph/file/de970c4096d7349234892.jpg"
 
 
 IMPORTED = {}
@@ -245,8 +245,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text=" Support ", url=f"t.me/NobisukiSupport"),
-                  InlineKeyboardButton(text=" Updates ", url=f"t.me/PegasusUpdates"),
+                  InlineKeyboardButton(text=" Support ", url=f"t.me/SHANKSSupport"),
+                  InlineKeyboardButton(text=" Updates ", url=f"t.me/ShanksUpdates"),
                   ]
                 ]
             ),
@@ -413,7 +413,7 @@ def zeus_data_callback(update, context):
                     InlineKeyboardButton(text="🔄 Go Inline 🔄", switch_inline_query_current_chat=""),
                  ],
                   [
-                    InlineKeyboardButton(text="📢 Updates", url="t.me/PegasusUpdates"),
+                    InlineKeyboardButton(text="📢 Updates", url="t.me/ShanksUpdates"),
                  ],
                  [
                     InlineKeyboardButton(text="⬅ Back", callback_data="zeus_back"),
@@ -701,7 +701,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@NobisukiSupport","[💖 Anjal is back to online 💖](https://telegra.ph/file/434967e94c3dda08b34ac.jpg)", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@ShanksSupport","[💖 Shanks is back to online 💖](https://te.legra.ph/file/c12eec4a439b27eb8d4ed.gif)", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
